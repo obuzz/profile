@@ -1,0 +1,208 @@
+body {
+  background-color: rgba(220, 220, 220);
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+ }
+
+ h2, h3, p, td {
+ font-family: 'Montserrat', sans-serif;
+ color: rgb(150, 150, 150);
+ }
+
+ /*Header Section CSS*/
+
+.jc {
+  display: flex;
+  justify-content: center;
+
+}
+.profileimg {
+  background-image: url("images/avatar.jpg");
+  background-size: cover;
+  align-content: center;
+  background-border: solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.avatar-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+ .header-section {
+   background-color: white;
+   text-align: center;
+   margin-left: 300px;
+   margin-right: 300px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 8px;
+   box-shadow: 0px 0px 0px 0.1px;
+ }
+
+ .header-section p {
+  margin-bottom: 30px;
+ }
+
+ .red-button {
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  padding: 10px 10px 15px 20px;
+  margin: 10px, 10px, 10px, 10px;
+  border-radius: 8px;
+  text-align: center;
+ }
+
+
+ .red-button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(139,0,0);
+  }
+
+  /*In Line Section Div CSS*/
+
+.inline-section {
+  background-color: white;
+  border-radius: 8px;
+  margin: 15px 15px 15px 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0.1px;
+}
+
+.inline-section {
+  list-style: none;
+  border-radius: 8px;
+}
+
+.inline-section li {
+  color: rgba(150, 150, 150);
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  padding: 50px 20px 10px;
+  border-radius: 8px;
+}
+
+.inline-section a {
+  color: rgba(100, 100, 100);
+  font-size: 40px;
+  text-decoration: none;
+}
+.fab:hover {
+  color: red;
+}
+.inline-section:hover {
+  color: rgba(100, 100, 100);
+}
+
+.education-section {
+  background-color: white;
+   text-align: center;
+   margin-left: 300px;
+   margin-right: 300px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 8px;
+   box-shadow: 0px 0px 0px 0.1px;
+ }
+
+/*Video Section*/
+
+ .teemzter-video {
+   background-color: white;
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 300px;
+   margin-right: 300px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border: solid;
+   border-color: rgb(240, 240, 240);
+   border-radius: 8px;
+   box-shadow: 10px;
+ }
+
+ /*Adventures Section*/
+
+.adventure-section {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.adventure-section a {
+  color: rgba(100, 100, 100);
+  text-decoration: none;
+}
+
+/*Movie Section Div CSS*/
+
+.movies-section {
+  background-color: white;
+  padding-top: 10px
+  margin-top: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px 0.1px;
+}
+
+.movies-section h2 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+/*Left Side Bar*/
+.left-sidebar {
+background-color: white;
+}
+
+/*Footer Section Div CSS*/
+
+.footer-section {
+  background-color: white;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px 0.1px;
+}
+
+.footer-link {
+  color: rgb(150, 150, 150);
+  text-decoration: none;
+ }
+
+ .footer-link a {
+  color: rgb(100, 100, 100);
+  text-decoration: underline;
+  background-color: white;
+ }
+
+.image-size {
+  padding: 10px;
+  width: 150px;
+  height: 200px;
+}
